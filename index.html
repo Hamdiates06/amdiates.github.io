@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamdi Ateş | Biyomedikal Cihaz Teknolojisi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="side-menu" class="side-nav">
+    <div class="side-nav-header">
+        <span class="logo-text">HA</span>
+        <a href="javascript:void(0)" class="close-btn" onclick="toggleMenu()">&times;</a>
+    </div>
+    
+    <div class="nav-links">
+        <a href="#hakkimda" onclick="toggleMenu()"><i class="fas fa-user-ninja"></i> Hakkımda</a>
+        <a href="#egitim" onclick="toggleMenu()"><i class="fas fa-microchip"></i> Eğitim</a>
+        <a href="#projeler" onclick="toggleMenu()"><i class="fas fa-folder-open"></i> Projeler</a>
+        <a href="#iletisim" onclick="toggleMenu()"><i class="fas fa-paper-plane"></i> İletişim</a>
+    </div>
+
+    <div class="cv-section">
+        <h3>Özgeçmiş</h3>
+        <p>En güncel PDF sürümünü görüntüleyin veya indirin.</p>
+        <a href="hamdi_ates_cv.pdf" target="_blank" class="cv-btn">CV'mi Görüntüle</a>
+    </div>
+</nav>
+
+<div id="main-container">
+    <header>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <div class="header-content">
+            <h1>Hamdi Ateş</h1>
+            <p class="subtitle">Ankara Yıldırım Beyazıt Üniversitesi // Biyomedikal Cihaz Teknolojisi</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="hakkimda" class="post">
+            <h2>Hakkımda</h2>
+            <p>
+                Ankara Yıldırım Beyazıt Üniversitesi, Biyomedikal Cihaz Teknolojisi programı 2. sınıf öğrencisiyim. 
+                <span class="bold">Savunma Sanayii</span> ve sağlık teknolojilerinin kesişim noktalarında yenilikçi çözümler 
+                geliştirmeye odaklanıyorum. Elektronik sistemler ve cihaz mühendisliği tutkumun peşinden gidiyorum.
+            </p>
+        </section>
+
+        <section id="egitim" class="post">
+            <h2>Eğitim</h2>
+            <div class="edu-card">
+                <span class="edu-date">2022 - Günümüz</span>
+                <h3>Ankara Yıldırım Beyazıt Üniversitesi</h3>
+                <p>Biyomedikal Cihaz Teknolojisi // 2. Sınıf</p>
+            </div>
+            <div class="edu-card">
+                <span class="edu-date">2018 - 2022</span>
+                <h3>Esenevler Şehit İbrahim Ateş Anadolu Lisesi</h3>
+            </div>
+        </section>
+
+        <section id="projeler" class="post">
+            <h2>Projeler</h2>
+            <div class="project-card placeholder">
+                <div class="project-icon"><i class="fas fa-hourglass-half"></i></div>
+                <h3>Geliştirme Aşamasında</h3>
+                <p>Savunma sanayiine yönelik biyomedikal tabanlı özel proje yakında burada...</p>
+            </div>
+        </section>
+
+        <section id="iletisim" class="post">
+            <h2>İletişim</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <strong>Konum</strong>
+                        <span>Ankara</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <strong>E-posta</strong>
+                        <span class="email-link">hamdiates@email.com</span>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <strong>Telefon</strong>
+                        <span>+90 XXX XXX XX XX</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Hamdi Ateş. Tüm Hakları Saklıdır.</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
