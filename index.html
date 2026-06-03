@@ -83,27 +83,30 @@
 
         <section id="projeler" class="post">
             <h2>Projeler</h2>
-            <div class="project-card">
-    <div class="video-container">
-        <video controls width="100%">
+            <div style="background: #1a1a1a; border: 1px solid #333; border-radius: 12px; overflow: hidden; max-width: 500px; margin: 20px auto; box-shadow: 0 4px 15px rgba(0,0,0,0.5); font-family: sans-serif; color: #fff; text-align: left;">
+    
+    <div style="width: 100%; display: flex; justify-content: center; background: #000;">
+        <video controls preload="metadata" playsinline style="width: 100%; height: auto; max-height: 450px; display: block;">
             <source src="oda-termometresi.mp4" type="video/mp4">
             Tarayıcınız video etiketini desteklemiyor.
         </video>
     </div>
-    <div class="project-info">
-        <h3>Akıllı Oda Termometresi</h3>
-        <p>
+    
+    <div style="padding: 20px;">
+        <h3 style="margin: 0 0 10px 0; color: #00adb5; font-size: 1.3rem;">Akıllı Oda Termometresi</h3>
+        <p style="margin: 0 0 15px 0; color: #ccc; font-size: 0.95rem; line-height: 1.5;">
             Arduino tabanlı tasarladığım bu projede, ortamın sıcaklık ve nem verilerini anlık olarak ölçüyorum. 
             Grafik ekranda verileri bar şeklinde dinamik olarak görselleştirerek kullanıcı dostu bir arayüz sundum. 
             Videoda, sensöre yapılan dış müdahale ile sıcaklık ve nem değerlerinin anlık değişimi başarıyla gözlemlenmektedir.
         </p>
-        <div class="project-tags">
-            <span>Embedded Systems</span>
-            <span>Arduino</span>
-            <span>IoT</span>
-            <span>Sensors</span>
+        
+        <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+            <span style="background: #333; color: #00adb5; padding: 5px 10px; border-radius: 15px; font-size: 0.8rem; font-weight: bold;">Embedded Systems</span>
+            <span style="background: #333; color: #00adb5; padding: 5px 10px; border-radius: 15px; font-size: 0.8rem; font-weight: bold;">Arduino</span>
+            <span style="background: #333; color: #00adb5; padding: 5px 10px; border-radius: 15px; font-size: 0.8rem; font-weight: bold;">Sensors</span>
         </div>
     </div>
+</div>
 </div>
         </section>
 
